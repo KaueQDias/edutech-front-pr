@@ -1,0 +1,111 @@
+body{
+    background: rgb(194, 194, 194);
+}
+
+.head{
+    display: flex;
+    height: auto;
+    background: rgb(21, 13, 13);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-item{
+    display: flex;
+    margin: 1.3rem;
+    color: rgb(235, 96, 46);
+    font-size: 1.3rem;
+}
+
+.head-item-inside{
+    padding: 1rem;
+    list-style: none;
+}
+.head-item-inside a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.title{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.button-head{
+    border: 1px solid rgb(235, 96, 46);
+    background-color: rgb(235, 96, 46);
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.size{
+    margin: 2rem;
+    border-radius: 6px;
+}
+
+h3.title{
+    font-size: 2rem;
+    color: rgb(235, 96, 46);
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2rem;
+    grid-column: 3;
+}
+
+.size2{
+    background-size: contain;
+    height:  15rem;
+}
+
+.receitas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    grid-column: 3;
+}
+
+.modal1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.marg{
+    margin:0 25%;
+}
+
+footer{
+    background-color: #453445;
+}
+
+footer div{
+    color: #fff;
+    padding: 2%;
+    letter-spacing: 5px;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+.link__github{
+    margin-top: 200px;
+    font-size: 23px;
+    font-weight: 300;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.link__github:hover{
+    font-size: 30px;
+    font-weight: 900;
+    color: aqua;
+}
+
+@media  screen and (max-width: 480px) {
+    .head-item-inside{ display: none;}
+}
